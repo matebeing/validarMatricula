@@ -125,7 +125,7 @@
             document.getElementById("resultado").innerHTML = "Carregando...";
             document.getElementById("resultado").classList.remove("sucesso", "erro", "info");
 
-            fetch("http://localhost:3000/verificar", {
+            fetch("https://validar-matricula.vercel.app/verificar", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
